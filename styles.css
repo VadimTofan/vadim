@@ -1,19 +1,142 @@
-#faq {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #f9f9f9;
+/* How It Works Block */
+.how-it-works {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: #f8f9fa;
 }
 
-.faq-list {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
+.how-it-works__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-.faq-item {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.how-it-works__steps {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.how-it-works__step {
+  flex: 1;
+  max-width: 300px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.how-it-works__step-title {
+  font-size: 1.25rem;
+  color: #2d3436;
+  margin-bottom: 1rem;
+}
+
+/* Use Cases Block */
+.use-cases {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.use-cases__list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.use-cases__case {
+  flex: 1;
+  max-width: 300px;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+/* Testimonials Block */
+.testimonials {
+  padding: 4rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.testimonials__list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonials__item {
+  flex: 1;
+  max-width: 400px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.testimonials__text {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* Pricing Block */
+.pricing {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.pricing__plans {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.pricing__plan {
+  flex: 1;
+  max-width: 350px;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.pricing__plan--free {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.pricing__plan--pro {
+  background: #007bff;
+  color: white;
+}
+
+.pricing__cta {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.pricing__plan--free .pricing__cta {
+  background: #007bff;
+  color: white;
+}
+
+.pricing__plan--pro .pricing__cta {
+  background: white;
+  color: #007bff;
+}
+
+/* FAQ Block */
+.faq {
+  padding: 4rem 1rem;
+  background: #f8f9fa;
+}
+
+.faq__list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq__item {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: white;
+  border-radius: 8px;
 }
